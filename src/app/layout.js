@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Digital Blog",
   description: "Discover and Boost Your Creativity and Productivity",
-  canonicalUrl: 'URL_DE_TU_PAGINA_ACTUAL',
+  canonicalUrl: 'https://blog-ine-agustin-urien.vercel.app/',
 };
 
 export default function RootLayout({ children }) {
