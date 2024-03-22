@@ -116,7 +116,8 @@ const Blog = ({ blogs, query }) => {
                         initial="hidden"
                         animate={controls}
                         transition={{ duration: 0.5, delay: 0 }}
-                        style={{ borderRadius: 20, display: "flex", justifyContent: "end", alignItems: "center", width: "32.5%", height: 45, backgroundColor: "transparent" }}>
+                        className="containerSearchSort"
+                    >
                         <Search />
                         <SortBy blogs={blogs} sort={sort} />
                     </motion.div>
@@ -177,7 +178,7 @@ const Blog = ({ blogs, query }) => {
                                         {
                                             query !== "" ?
                                                 <div className="sortedLinkContainer">
-                                                    <Link className="sortedLink" href={`blogDetail/${blog.id}`}><ArrowCircleRightOutlined style={{ fontSize: 40 }} /></Link>
+                                                    <Link className="sortedLink" href={`blogDetail/${blog.id}`}><ArrowCircleRightOutlined className="arrowlink" /></Link>
                                                 </div>
                                                 :
                                                 <div className="containerLink">

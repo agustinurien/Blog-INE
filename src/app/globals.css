@@ -66,27 +66,6 @@ align-items: center;
   font-size: 1rem;
   font-weight: 600;
 }
-
-
-.mainBlogsContainer {
-  justify-content: space-between;
-  display: flex;
-  width: 80%;
-  height: 50vh;
-  background-color: #0e0e0e;
-  border-radius: 8px;
-  margin-bottom: 60px;
-}
-.mainTextContainer{
-  padding: 50px;
-}
-.mainImage{
-  width: 60%;
-  background-color: aqua;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
 .page{
   width: 100%;
   display: flex;
@@ -186,7 +165,7 @@ align-items: center;
   display: flex;
   align-items: center;
   width: 87%;
-  height: 220px;
+  height: 240px;
   background-color: #161616;
   border-radius: 10px;
 }
@@ -301,6 +280,9 @@ align-items: center;
   color: #106fffea;
   
 }
+.arrowlink{
+  font-size: 40px;
+}
 
 .link{
   display: flex;
@@ -408,3 +390,396 @@ align-items: center;
   color: #5e5e5e;
 }
 
+.containerSearchSort{
+  border-radius: 20;
+  display:flex;
+  justify-content:end;
+  align-items:center;
+  width:32.5%;
+  height: 45;
+  background-color:transparent;
+}
+
+@media screen and (max-width: 1500px) {
+
+  .blogDetailContainer{
+    background: linear-gradient(to bottom, rgba(56, 56, 56, 0.301), rgb(0, 0, 0));
+    width: 70%;
+    border-radius: 8px;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .titlePlusImage{
+    height: fit-content;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .imageDetailContainer{
+    width: 100%;
+    height: 200px;
+    
+  }
+  .containerTextDetail{
+    padding: 5px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .containerTextDetail p{
+    padding-top: 10px;
+    width: 90%;
+    margin-left: 0px;
+    font-size: 0.7rem;
+  }
+  .titleDetail{
+    font-size: 1.5rem;
+  }
+
+  .richTextContainer{
+    padding-top: 0px;
+    margin: 0px 4%;
+  }
+
+  .cardSorted{
+    gap: 20px;
+
+  }
+  .textSorted{
+    width: 90%;
+    height: fit-content;
+    padding: 0px 0px;
+  }
+  .textSorted h2{
+    width: 100%;
+    font-size: 1.2rem;
+    
+  }
+  .textSorted p{
+    width: 75%;
+    font-size: 0.7rem;
+    padding-top: 0px;
+    margin: 0px;
+  }
+  .textSorted span{
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  .sortedLinkContainer{
+    padding-right: 20px;
+  }
+  .cardSorted{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+
+  .blogDetailContainer{
+    margin-top: 20px ;
+    
+  }
+
+  body{
+    margin: 0px 20px
+  }
+  .navBarContainer{
+    margin-bottom: 0px;
+  }
+  .sectionTitle{
+    height: 20vh;
+    background-image: none;
+    padding-bottom: 20px;
+  }
+  .titleHome{
+    font-size: 2.5rem;
+  }
+  .subTitleHome{
+    text-align: center;
+    font-size: 0.8rem;
+    
+  }
+  
+  .blogsSection{
+    background-color: #0A0A0A;
+    width: 100%;
+    border-radius: 8px;
+    
+  }
+  .titleSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6.5%;
+    background: linear-gradient(to top, transparent, rgba(88, 88, 88, 0.164));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top: #383838 2px solid;
+    gap: 20px;
+  }
+  
+  .titleBlogSection{
+    font-weight: 800; 
+    font-size: 1.3rem; 
+    margin: 0;
+    
+  }
+  .containerSearchSort{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .searchBar{
+    width: 100%;
+  }
+  .cardContainer{
+    width: 320px;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  
+  .cardSorted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    height: fit-content;
+  }
+
+  .imgContainer{
+    height: 180px;
+    
+  }
+  .imgSorted{
+    width: 100%;
+    height: 160px;
+    
+  }
+  .imgSorted img{
+    border-radius: 0px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+  
+
+  .textBlogContainer{
+    height: fit-content;
+  }
+  .textSorted{
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    padding: 0px 0px;
+  }
+  .textSorted h2{
+    width: 100%;
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  .textSorted p{
+    width: 100%;
+    font-size: 0.8rem;
+    padding-top: 0px;
+    margin: 0px;
+  }
+  .textSorted span{
+    width: 100%;
+    font-size: 0.6rem;
+  }
+  
+  .textBlogContainer p{
+    font-size: 0.9rem;
+    
+  }
+  .textBlogContainer h2{
+    font-size: 1.1rem;
+    padding-top: 0px;
+    height: 30px;
+    padding-bottom: 10px;
+    
+  
+  }
+  .textBlogContainer span{
+    font-size: 0.6rem;
+  }
+  
+  .sortedLinkContainer{
+    justify-content: center;
+    align-items: end;
+    padding: 5px;
+    
+    height: 30px;
+  }
+
+  .arrowlink{
+    font-size: 20px;
+  }
+  
+  .link{
+    border-radius: 15px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .blogDetailContainer{
+    margin-top: 20px ;
+    width: 100%;
+  }
+
+  .imageDetailContainer{
+    width: 100%;
+    height: 100px;
+    
+  }
+  .containerTextDetail{
+    padding: 5px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .containerTextDetail p{
+    font-size: 0.5rem;
+  }
+  .titleDetail{
+    font-size: 0.7rem;
+  }
+
+  .navBarContainer{
+    margin-bottom: 0px;
+  }
+  .sectionTitle{
+    height: 20vh;
+    background-image: none;
+    padding-bottom: 20px;
+  }
+  .titleHome{
+    font-size: 2.5rem;
+  }
+  .subTitleHome{
+    text-align: center;
+    font-size: 0.8rem;
+    
+  }
+  
+  .blogsSection{
+    background-color: #0A0A0A;
+    width: 100%;
+    border-radius: 8px;
+    
+  }
+  .titleSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6.5%;
+    background: linear-gradient(to top, transparent, rgba(88, 88, 88, 0.164));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top: #383838 2px solid;
+    gap: 20px;
+  }
+  
+  .titleBlogSection{
+    font-weight: 800; 
+    font-size: 1.3rem; 
+    margin: 0;
+    
+  }
+  .containerSearchSort{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .searchBar{
+    width: 100%;
+  }
+  .cardContainer{
+    width: 260px;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  
+  .cardSorted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+  }
+
+  .imgContainer{
+    height: 150px;
+    
+  }
+  .imgSorted{
+    width: 100%;
+    height: 140px;
+    
+  }
+  .imgSorted img{
+    border-radius: 0px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+  
+
+  .textBlogContainer{
+    height: 150px;
+  }
+  .textSorted{
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    padding: 0px 0px;
+  }
+  .textSorted h2{
+    width: 100%;
+    font-size: 0.7rem;
+    padding-top: 10px;
+  }
+  .textSorted p{
+    width: 100%;
+    font-size: 0.6rem;
+    padding-top: 0px;
+    margin: 0px;
+  }
+  .textSorted span{
+    width: 100%;
+    font-size: 0.4rem;
+  }
+  
+  .textBlogContainer p{
+    font-size: 0.5rem;
+    
+  }
+  .textBlogContainer h2{
+    font-size: 0.7rem;
+    padding-top: 0px;
+    height: 30px;
+    
+  
+  }
+  .textBlogContainer span{
+    font-size: 0.4rem;
+  }
+  
+  .sortedLinkContainer{
+    justify-content: center;
+    align-items: end;
+    padding: 5px;
+    
+    height: 30px;
+  }
+
+  .arrowlink{
+    font-size: 20px;
+  }
+  
+  .link{
+    border-radius: 15px;
+    height: 30px;
+  }
+}
